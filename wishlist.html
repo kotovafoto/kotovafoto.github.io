@@ -1,0 +1,34 @@
+---
+layout: default
+title: Wishlist
+lang: ru
+---
+{% for block in site.data.wishlist %}
+    <h1>{{ block.name }}</h1>
+    {% for item in block.items %}
+        <article>
+            <h2>{{ item.name }}</h2>
+            <p>{{ item.description }}</p>
+            {% if item.links and item.links.size != 0 %}
+            <p>
+            Links:
+                <ul>
+                {% for link in item.links %}
+                <li>
+                    <a href="{{ link.url }}">{{ link.name }} </a>
+                </li>
+                {% endfor %}
+                </ul>
+            </p>
+            {% endif %}
+            {% for image_description in item.images %}
+                <figure style="display: block; width: 30%;">
+                    <img src="{{ image_description.url }}"/>
+                    {% if image_description.description %}
+                    <figcaption>{{ image_description.description }}</figcaption>
+                    {% endif %}
+                </figure>
+            {% endfor %}
+        </article>
+    {% endfor %}
+{% endfor %}

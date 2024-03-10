@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Wishlist",
+    "items": [
+      {
+        "name": "Помада NYX оттенка Leon",
+        "images": [
+          {
+            "url": "https://images-na.ssl-images-amazon.com/images/I/71wqHwidqaL._AC_SX679_.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Смешные носки",
+        "images": [
+          {
+            "url": "https://th.bing.com/th/id/OIP.D3dGMfssj1Laz88pyy2VUwHaHa?rs=1&pid=ImgDetMain"
+          },
+          {
+            "url": "https://th.bing.com/th/id/OIP.GP1wegGc6ReAD7dl75PhkwHaJ4?rs=1&pid=ImgDetMain"
+          },
+          {
+           "url": "https://th.bing.com/th/id/R.409670eb456018597cc8ea988748c1a8?rik=2ZOU8NS3PSOyZg&pid=ImgRaw&r=0"
+          }
+        ]
+      },
+      {
+        "name": "Плёнка для INSTAX square",
+        "description": "типа полароид которая 🙂",
+        "images": [
+          {
+            "url": "https://simg.marwin.kz/media/catalog/product/cache/41deb699a7fea062a8915debbbb0442c/4/5/plenka_instax_square_ww_102pk_dmomentsnimkov.jpg"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://www.marwin.kz/digital-technique/fotoapparaty/fotoapparaty-momental-noj-pechati/plenka-instax-square-ww-10-2pk-d-moment-snimkov.html",
+            "name": "Marwin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Anti-Wishlist",
+    "items": [
+      {
+        "name": "Нечто огромное",
+        "description": "Типа микроволновой печи или соляной лампы 600 кг"
+      },
+      {
+        "name": "Кружки"
+      },
+      {
+        "name": "Ёлочные игрушки"
+      }
+    ]
+  }
+]
